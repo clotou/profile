@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+body {
+  background-image: url("images/background.png");
+  background-color: #8caaa1;
+  background-size: cover;
+  background-position: center;
+}
+h1 {
+  color: #3d4b47;
+  font-weight: bold;
+}
+
+img {
+  height: 200px;
+  border-radius: 50%;
+  border-color: #bc647a;
+  box-shadow: 2px 2px 3px #bc647a;
+
+}
+
+h2 {
+  color: #bc647a;
+}
+
+h1, h2 {
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  color: #58607D;
+}
+
+.btn-purple {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  color: white;
+  background-color: #7c2c40;
+  padding: 16px;
+  border-radius: 4px;
+}
+
+.btn-purple:hover {
+  color: #8caaa1;
+}
+
+.media_logo {
+  text-decoration: none;
+  color: #8caaa1;
+}
+
+#music_link {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  color: #8caaa1;
+}
+
+#music_link:hover {
+  color: #3d4b47;
+}
+
+ul {
+  list-style: none;
+}
+
+i {
+  font-size: 50px;
+  padding: 10px;
+}
+
+li {
+  display:inline;
+}
+
+.media_logo:hover {
+  color: #3d4b47;
+}
+
+ul {
+  padding: 0px;
+  text-align: center;
+}
+
+div {
+  background-color: #f7d8c8bd;
+  padding: 32px;
+  margin: 24px auto;
+  width: 500px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  border-radius: 4px;
+}
+
+#paragraph-withmargin {
+  margin-bottom: 32px;
+}
